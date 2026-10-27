@@ -9,7 +9,7 @@
 ![Nav2](https://img.shields.io/badge/Nav2-navigation-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)
 
-📄 **Paper:** J.-H. Won, S.-Y. Park, S.-S. Hwang, *"A Visual-Physical Hybrid Digital Twin Simulation Environment Based on 3D Gaussian Splatting for Validation of Vision-Based Autonomous Navigation Algorithms,"* Journal of Institute of Control, Robotics and Systems (ICROS), 2026. I'm the first author and was the team lead.
+📄 **Paper:** J.-H. Won, S.-Y. Park, S.-S. Hwang, *"A Visual-Physical Hybrid Digital Twin Simulation Environment Based on 3D Gaussian Splatting for Validation of Vision-Based Autonomous Navigation Algorithms,"* manuscript in preparation for journal submission. I'm the first author and was the team lead.
 
 <p align="center">
   <img src="docs/images/go2_navigation.png" alt="Go2 walking down the photoreal corridor, an RTAB-Map loop closure, and the robot's path on the Nav2 occupancy grid" width="100%">
@@ -219,11 +219,11 @@ In this code:
 ## Citation
 
 ```bibtex
-@article{won2026hybrid,
-  title   = {A Visual-Physical Hybrid Digital Twin Simulation Environment Based on 3D Gaussian Splatting for Validation of Vision-Based Autonomous Navigation Algorithms},
-  author  = {Won, Jong-Hun and Park, Seo-Youn and Hwang, Sung-Soo},
-  journal = {Journal of Institute of Control, Robotics and Systems},
-  year    = {2026}
+@unpublished{won2026hybrid,
+  title  = {A Visual-Physical Hybrid Digital Twin Simulation Environment Based on 3D Gaussian Splatting for Validation of Vision-Based Autonomous Navigation Algorithms},
+  author = {Won, Jong-Hun and Park, Seo-Youn and Hwang, Sung-Soo},
+  note   = {Manuscript in preparation for journal submission},
+  year   = {2026}
 }
 ```
 
@@ -235,4 +235,4 @@ Uses [Isaac Lab](https://github.com/isaac-sim/IsaacLab), [NVIDIA Isaac Sim](http
 
 ## License
 
-Code: [MIT](LICENSE). `play.py`, `evaluate_nav.py` and `flat_env_cfg.py` in `isaaclab_overrides/` are modified from Isaac Lab and keep their original BSD-3-Clause headers. Figures are reproduced from the paper (© ICROS 2026). The scene, map and checkpoints belong to CGV Lab and are not covered by this license.
+Code: [MIT](LICENSE). `play.py`, `evaluate_nav.py` and `flat_env_cfg.py` in `isaaclab_overrides/` are modified from Isaac Lab and keep their original BSD-3-Clause headers. Figures are from the paper manuscript. The scene, map and checkpoints belong to CGV Lab and are not covered by this license.
