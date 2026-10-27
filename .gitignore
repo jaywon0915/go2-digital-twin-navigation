@@ -1,0 +1,18 @@
+# Lab assets (scene, map, checkpoints) are not distributed; see assets/README.md
+assets/*
+!assets/README.md
+
+# Large binary formats, in case they end up elsewhere
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.nurec
+*.db
+*.pt
+*.pth
+*.onnx
+
+__pycache__/
+*.pyc
+.DS_Store
